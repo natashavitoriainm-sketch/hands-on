@@ -80,7 +80,16 @@ atividades
   }
 }
 
+6-programa {
+  funcao inicio() {
+  real raio
+  escreva("Digite um raio: ")
+  leia(raio)
 
+    escreva("Area: ", 3.14 * raio * raio)
+  
+  }
+}
 
 
 
