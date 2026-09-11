@@ -21,7 +21,7 @@ atividades
   funcao inicio() {
     inteiro numero
 
-    escreva("Digite um numero inteiro: ")
+    escreva("Digite um numero: ")
     leia(numero)
   
    escreva("Mostre o dobro: ", numero * 2, "\n")
@@ -32,11 +32,23 @@ atividades
   }
 }
 
-3-
+3-programa {
+  funcao inicio() {
+    inteiro n1, n2, n3
 
+    escreva("primeira nota: ", "\n")
+     leia(n1)
 
+    escreva("segunda nota: ","\n")
+    leia(n2)
 
+    escreva("terceira nota: ","\n")
+    leia(n3)
 
+    escreva("O resultado da media: ",(n1 + n2 + n3) / 3,"\n")
+  
+  }
+}
 
 
 
