@@ -1,14 +1,7 @@
 # hands-on
 arquivos
 atividades 
-1- programa {
-  funcao inicio() {
-    // Mostre o antecessor = 9 e sucessor = 11 de um numero interio = 10
-    inteiro valor1, valor2, valor3
-
-    escreva("Coloque um numero inteiro: ")
-    leia(valor3)
-    
+1-
 
 
 
