@@ -69,10 +69,16 @@ atividades
   }
 }
 
-
-
-
-
+5-programa {
+  funcao inicio() {
+  real c
+  escreva("Digite a temperatura em Celsius: ","\n")
+  leia(c)
+  
+    escreva("Fahrenheit: ",(c * 9 / 5) + 32,"\n")
+  
+  }
+}
 
 
 
