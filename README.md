@@ -50,7 +50,24 @@ atividades
   }
 }
 
+4-programa {
+  funcao inicio() {
+  real n1, n2
+  escreva("Digite o primeiro numero: ")
+  leia(n1)
 
+    escreva("Digite o segundo numero: ")
+    leia(n2)
+   
+    escreva("Soma: ",(n1 + n2),"\n")
+
+    escreva("Subtracao: ",(n1 - n2),"\n")
+
+    escreva("Multiplicacao: ",(n1 * n2),"\n")
+   
+    escreva("Divisao: ",(n1 / n2),"\n")
+  }
+}
 
 
 
