@@ -242,11 +242,43 @@ atividades
   }
 }
 
-17-
+17-programa {
+  funcao inicio() {
+   logico a, b
+   escreva("Valores ")
+  
+    a = verdadeiro
+    b = verdadeiro
+   
+    escreva("E: ", a e b, "\n")
 
+    escreva("OU: ", a ou b, "\n")
 
+    a = verdadeiro
+    b = falso
 
+    escreva("E: ", a e b, "\n")
 
+    escreva("OU: ", a ou b, "\n")
+
+    a = falso
+    b = falso
+   
+    escreva("E: ", a e b, "\n")
+
+    escreva("OU: ", a ou b, "\n")
+   
+    a = falso
+    b = verdadeiro
+   
+    escreva("E: ", a e b, "\n")
+
+    escreva("OU: ", a ou b, "\n")
+
+  }
+}
+
+18-
 
 
 
