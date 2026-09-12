@@ -220,19 +220,29 @@ atividades
   }
 }
 
-15-
+15-programa {
+  funcao inicio() {
+   logico valor 
+   escreva("O valor e: ")
+   leia(valor)
+   
+    escreva("Resultado: ",nao valor,"\n")
 
+  }
+}
 
+16-programa {
+  funcao inicio() {
+   logico a, b, c
+   escreva("Valores: ")
+   leia(a, b, c)
 
+    escreva("Resultado: ", (a e b) ou c,"\n")
+   
+  }
+}
 
-
-
-
-
-
-
-
-
+17-
 
 
 
