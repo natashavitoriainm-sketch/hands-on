@@ -91,8 +91,40 @@ atividades
   }
 }
 
+7-programa {
+  funcao inicio() {
+    real km, litros
+    escreva("Digite a distancia em km: ")
+    leia(km)
+    
+    escreva("Digite a quantidade de litros: ")
+    
+    leia(litros)
 
+    escreva("Consumo: ", (km / litros),"\n")
+  }
+}
 
+8-programa {
+  funcao inicio() {
+    real conta, valorDaTaxa, total, valorPorPessoa
+    escreva("Digite um valor: ")
+    leia(conta)
+
+    escreva("O valor da taxa sera: ", valorDaTaxa = conta * 10 / 100 ,"\n")
+
+    total = conta + valorDaTaxa
+
+    valorPorPessoa = total / 3
+
+    escreva("Cada pessoa devera pagar: ", valorPorPessoa,"\n")
+    
+    escreva("O valor total com a taxa: ", total,"\n")
+
+  }
+}
+
+9-
 
 
 
