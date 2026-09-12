@@ -124,16 +124,38 @@ atividades
   }
 }
 
-9-
+9-programa {
+  funcao inicio() {
+    real compra, percentual, desconto, valorFinal
+    escreva("Digite o valor da compra: ") 
+    leia(compra)
 
+    escreva("Digite o percentual de desconto: ","\n")
+    leia(percentual)
 
+    desconto = compra * percentual / 100
 
+    valorFinal = compra - desconto
+    escreva("O valor do desconto sera: ", desconto,"\n")
 
+    escreva("O valor final sera: ", valorFinal,"\n")
 
+  }
+}
 
+10-programa {
+  funcao inicio() {
+    inteiro idade
+    logico maiorDeIdade
+    escreva("Digite sua idade: ")
+    leia(idade)
 
+    maiorDeIdade = idade >= 18
 
-
+    escreva("Maior de idade: ", maiorDeIdade,"\n")
+    
+  }
+}
 
 
 
