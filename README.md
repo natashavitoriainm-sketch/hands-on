@@ -1,4 +1,5 @@
 
+
 # hands-on
 arquivos
 atividades 
@@ -191,21 +192,35 @@ atividades
   }
 }
 
-13-
+13-programa {
+  funcao inicio() {
+   logico a, b
+   escreva("O valor e: ")
+   leia(a)
 
+    escreva("O valor e: ")
+    leia(b)
 
+    escreva("Resultado: ", a e b)
 
+  }
+}
 
+14-programa {
+  funcao inicio() {
+   logico a, b
+   escreva("O valor de A: ")
+   leia(a)
 
+    escreva("O valor de B: ")
+    leia(b)
 
+    escreva("Resultado: ", a ou b)
 
+  }
+}
 
-
-
-
-
-
-
+15-
 
 
 
