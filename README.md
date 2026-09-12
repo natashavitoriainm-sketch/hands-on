@@ -298,47 +298,56 @@ ATIVIDADES
   }
 }
 
-19-
+19-programa {
+  funcao inicio() {
+    cadeia primeiroNome, sobrenome
 
+    escreva("Digite o primeiro nome: ","\n")
+    leia(primeiroNome)
 
+    escreva("Digite o sobrenome: ","\n")
+    leia(sobrenome)
 
+    escreva("Nome de usuario: ", primeiroNome + sobrenome,"\n")
+   
+  }
+}
 
+20-programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro idade
+    real notaFinal
+    caracter sexo
+    logico matriculado
+    escreva("Digite o nome: ", "\n")
+    leia(nome)
 
+    escreva("Digite a idade: ", "\n")
+    leia(idade)
+    
+    escreva("Digite nota final: ", "\n")
+    leia(notaFinal)
+    
+    escreva("Digite o sexo: ", "\n")
+    leia(sexo)
 
+    escreva("Digite o matriculado: ", "\n")
+    leia(matriculado)
+    
+    escreva("Nome: ", nome, "\n")
 
+    escreva("Idade: ", idade, "\n")
 
+    escreva("Nota final: ", notaFinal, "\n")
 
+    escreva("Sexo: ", sexo, "\n")
 
+    escreva("Matriculado: ", matriculado, "\n")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+  }
+}
 
 
 
