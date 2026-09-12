@@ -2,7 +2,8 @@
 
 # hands-on
 arquivos
-atividades 
+ATIVIDADES
+
 1-programa {
   funcao inicio() {
     inteiro numero, antecessor, sucessor
@@ -10,9 +11,9 @@ atividades
     escreva("Digite um numero inteiro: ")
     leia(numero)
   
-   escreva(" Antecessor: ", numero - 1,"\n")
+    escreva(" Antecessor: ", numero - 1,"\n")
 
-   escreva(" Sucessor: " , numero + 1,"\n")
+    escreva(" Sucessor: " , numero + 1,"\n")
 
 
   }
@@ -25,9 +26,9 @@ atividades
     escreva("Digite um numero: ")
     leia(numero)
   
-   escreva("Mostre o dobro: ", numero * 2, "\n")
+    escreva("Mostre o dobro: ", numero * 2, "\n")
 
-   escreva("Mostre o triplo: " , numero * 3, "\n")
+    escreva("Mostre o triplo: " , numero * 3, "\n")
 
 
   }
@@ -53,9 +54,9 @@ atividades
 
 4-programa {
   funcao inicio() {
-  real n1, n2
-  escreva("Digite o primeiro numero: ")
-  leia(n1)
+    real n1, n2
+    escreva("Digite o primeiro numero: ")
+    leia(n1)
 
     escreva("Digite o segundo numero: ")
     leia(n2)
@@ -72,9 +73,9 @@ atividades
 
 5-programa {
   funcao inicio() {
-  real c
-  escreva("Digite a temperatura em Celsius: ","\n")
-  leia(c)
+    real c
+    escreva("Digite a temperatura em Celsius: ","\n")
+    leia(c)
   
     escreva("Fahrenheit: ",(c * 9 / 5) + 32,"\n")
   
@@ -83,9 +84,9 @@ atividades
 
 6-programa {
   funcao inicio() {
-  real raio
-  escreva("Digite um raio: ")
-  leia(raio)
+    real raio
+    escreva("Digite um raio: ")
+    leia(raio)
 
     escreva("Area: ", 3.14 * raio * raio)
   
@@ -160,10 +161,10 @@ atividades
 
 11-programa {
   funcao inicio() {
-   real numero
-   logico positivo
-   escreva("Digite um numero: ")
-   leia(numero)
+    real numero
+    logico positivo
+    escreva("Digite um numero: ")
+    leia(numero)
 
     positivo = numero > 0
    
@@ -174,13 +175,13 @@ atividades
 
 12-programa {
   funcao inicio() {
-  real numero, x, y
-  logico estaEntre
-  escreva("Digite um numero: ")
-  leia(numero)
+    real numero, x, y
+    logico estaEntre
+    escreva("Digite um numero: ")
+    leia(numero)
   
-  escreva("Digite o valor de x: ","\n")
-  leia(x)
+    escreva("Digite o valor de x: ","\n")
+    leia(x)
 
     escreva("Digite o valor de y: ","\n")
     leia(y)
@@ -194,9 +195,9 @@ atividades
 
 13-programa {
   funcao inicio() {
-   logico a, b
-   escreva("O valor e: ")
-   leia(a)
+    logico a, b
+    escreva("O valor e: ")
+    leia(a)
 
     escreva("O valor e: ")
     leia(b)
@@ -208,9 +209,9 @@ atividades
 
 14-programa {
   funcao inicio() {
-   logico a, b
-   escreva("O valor de A: ")
-   leia(a)
+    logico a, b
+    escreva("O valor de A: ")
+    leia(a)
 
     escreva("O valor de B: ")
     leia(b)
@@ -222,9 +223,9 @@ atividades
 
 15-programa {
   funcao inicio() {
-   logico valor 
-   escreva("O valor e: ")
-   leia(valor)
+    logico valor 
+    escreva("O valor e: ")
+    leia(valor)
    
     escreva("Resultado: ",nao valor,"\n")
 
@@ -233,9 +234,9 @@ atividades
 
 16-programa {
   funcao inicio() {
-   logico a, b, c
-   escreva("Valores: ")
-   leia(a, b, c)
+    logico a, b, c
+    escreva("Valores: ")
+    leia(a, b, c)
 
     escreva("Resultado: ", (a e b) ou c,"\n")
    
@@ -244,8 +245,8 @@ atividades
 
 17-programa {
   funcao inicio() {
-   logico a, b
-   escreva("Valores ")
+    logico a, b
+    escreva("Valores ")
   
     a = verdadeiro
     b = verdadeiro
@@ -278,14 +279,26 @@ atividades
   }
 }
 
-18-
+18-programa {
+  funcao inicio() {
+    cadeia nome, cidade
+    inteiro idade
 
+    escreva("Digite seu nome: ","\n")
+    leia(nome)
 
+    escreva("Digite sua idade: ","\n")
+    leia(idade)
 
+    escreva("Digite sua cidade: ","\n")
+    leia(cidade)
+   
+    escreva("Meu nome é ", nome, ", tenho ", idade, " anos e moro em ", cidade, ".","\n")
+   
+  }
+}
 
-
-
-
+19-
 
 
 
