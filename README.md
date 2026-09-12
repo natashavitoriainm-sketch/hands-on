@@ -157,25 +157,41 @@ atividades
   }
 }
 
+11-programa {
+  funcao inicio() {
+   real numero
+   logico positivo
+   escreva("Digite um numero: ")
+   leia(numero)
 
+    positivo = numero > 0
+   
+    escreva("O numero e: ", positivo,"\n")
 
+  }
+}
 
+12-programa {
+  funcao inicio() {
+  real numero, x, y
+  logico estaEntre
+  escreva("Digite um numero: ")
+  leia(numero)
+  
+  escreva("Digite o valor de x: ","\n")
+  leia(x)
 
+    escreva("Digite o valor de y: ","\n")
+    leia(y)
 
+    estaEntre = numero >= x e numero <= y
 
+    escreva("Esta entre: ", estaEntre,"\n")
 
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
+13-
 
 
 
